@@ -1,16 +1,16 @@
 def reverse_string(string)
 	
-	# until i == string.length
-		p move = string.slice[0]
-		p string.insert(-1, move)
-		
-	# end
-
-	
 end
-
-p reverse_string("happy")
 
 # take string apart by character and insert each into array using '.chars'
 #   OOORRRRRR
-# move first letter of string to end of string and continue until each string has been done (sounds like '.length' for the end)
+# move second to last letter in front of string, then add final letter of original to beginning of new string. (sounds like '.length' for the end)
+# new_string = ""
+# 	string_copy = string.dup
+# 	i = 0
+# 	while i < 11
+# 		move = string.slice(-2)
+# 		new_string.insert(0, move)
+# 		i += 1
+# 	end
+# 	new_string.insert(0, string[-1])

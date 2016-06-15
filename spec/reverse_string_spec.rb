@@ -17,9 +17,9 @@ describe 'reversing a string' do
 			expect(reverse_string_recursive("comma")).to eq "ammoc"
 		end
 
-		# it 'reverses a given sentence through recursion' do
-		# 	expect(reverse_string_recursion("It's all greek to me.")).to eq ".em ot keerg lla s'tI"
-		# end
+		it 'reverses a given sentence through recursion' do
+			expect(reverse_string_recursive("It's all greek to me.")).to eq ".em ot keerg lla s'tI"
+		end
 	end
 end
 
